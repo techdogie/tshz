@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+fieldset {
+  background-color: #eeeeee;
+  width: 90%; 
+   font-size:14px;       
+    
+}
+r {
+  background-color: silver;
+  font-size: 19px;
+  width: 100%;
+   }
+n  {
+     font-size: 20px;
+     }
+code {
+	background-color: #eeeeee;
+          }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: 'Lexend Deca', sans-serif;
+  padding: 20px;
+  margin: 0;
+        width: 100%;
+        height: 20vh;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 300% 200%;
+        -webkit-animation: gradientBG 15s ease infinite;
+        animation: gradientBG 15s ease infinite
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 2px;
+  font-size: xx-small;
+  text-align: center;
+  background: white;
+  margin: 0;
+        width: 100%;
+        height: 15vh;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 300% 200%;
+        -webkit-animation: gradientBG 15s ease infinite;
+        animation: gradientBG 15s ease infinite
+}
+
+@-webkit-keyframes gradientBG {
+        0% {
+            background-position: 0 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0 50%
+        }
+    }
+
+    @keyframes gradientBG {
+        0% {
+            background-position: 0 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0 50%
+        }
+    }
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  background: #ffffff;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  margin: 0;
+        width: 100%;
+        height: 15vh;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 300% 200%;
+        -webkit-animation: gradientBG 15s ease infinite;
+        animation: gradientBG 15s ease infinite
+}
+
+.frame-area {
+  display: block;
+  background: #f1f1f1;
+  width: 100%;  /* RESPONSIVE WIDTH */
+  max-width: auto;
+  height: 750px;
+  overflow: hidden;  /* EDIT TO hidden FOR NO SCROLLBAR */
+  border: #999999 1px solid;
+  margin: 0px;
+  padding: 0px;
+  }
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="http://freackingcourseonline.c1.biz/"><img src="https://1.bp.blogspot.com/-tuZ2JeNu8TY/X2Gjn91qNQI/AAAAAAAAoQs/Yn_Ij5cLcp8qrFL1nPMipYGMXljXOmkBQCK4BGAYYCw/s1600/ronnie.png" class=" square responsive-img materialboxed"></a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn" >
+
+<ul>
+
+
+	<center><h1>Python&ndash;Faraday</h1></center>
+	<center><img src="https://1.bp.blogspot.com/-rDUuusR6KVs/X7vxaogdgoI/AAAAAAAApEM/5_Cefbn_J4UVAV6F5OF9tFiTkaPSPwA6gCLcBGAsYHQ/s320/img-faraday.png" height="400" width="600"/></center>
+<br>
+
+	<p><span style="white-space: pre;">	</span>Faraday introduces a new concept &ndash; IPE (Integrated Penetration&ndash;Test Environment) a multiuser Penetration test IDE. Designed for distribution, indexation and analysis of the data generated during a security audit.</p>
+
+	<p><span style="white-space: pre;">	</span>The main purpose of Faraday is to re&ndash;use the available tools in the community to take advantage of them in a multiuser way.</p>
+
+	<p><span style="white-space: pre;">	</span>Designed for simplicity, users should notice no difference between their own terminal application and the one included in Faraday. Developed with a specialized set of functionalities that help users improve their own work. Do you remember yourself programming without an IDE? Well, Faraday does the same as an IDE does for you when programming, but from the perspective of a penetration test.</p>
+
+<br>
+
+<h2>Features</h2>
+	<ul style="list-style-type: disc">
+	<p><h3><li>Workspaces :</h3>
+		<span style="white-space: pre;">	</span>Information is organized into various Workspaces. Each Workspace contains a pentest team&#39;s assignments and all the intel that is discovered.</p>
+
+	<p><h3><li>Agents :</h3>
+		<span style="white-space: pre;">	</span><a href="https://github.com/infobyte/faraday_agent_dispatcher">Faraday Agents Dispatcher</a> helps user develop integrations with Faraday written in any language. Agents collects information from different network location using different tools. You can use <a href="https://faradaysec.com/">FaradaySEC</a> to orchestrate tool execution.</p>
+
+	<p><h3><li>Conflicts :</h3>
+		<span style="white-space: pre;">	</span>If two plugins produce clashing information for an individual element, a conflict that the user will have to resolve is generated. An example is if <n>user1</n> incorporates host 127.0.0.1 OS:Linux and <n>user2</n> incorporates 127.0.0.1 OS: Linux Ubuntu 13.10.<br>
+
+		<span style="white-space: pre;">	</span>On our <a href="https://github.com/infobyte/faraday/wiki#gtk-gui">GTK interface</a> there&#39;s a button on the bottom right corner of the main window displaying the number of conflicts in the current workspace. To resolve them, just click on the button and a window will open where you can edit the conflicting objects and select which one to keep.</p>
+
+	<p><h3><li>Faraday plugin :</h3>
+		<span style="white-space: pre;">	</span>Using our plugin you can perform various actions using the command line, for example:
+	<br><br>
+<fieldset>
+<code>
+
+	<p>$ cd faraday&ndash;dev/bin/</p>
+	<p>$ ./fplugin create_host 192.154.33.222 Android</p>
+	<p>1a7b2981c7 becbcb3d53 18056eb29a 58817f5e67</p>
+	<p>$ ./fplugin filter_services http ssh &ndash;p 21 &ndash;a</p>
+	<p>Filtering services for ports: 21, 22, 80, 443, 8080, 8443</p>
+	<br>
+	<p>192.168.20.1 ssh [22] tcp open None</p>
+	<p>192.168.20.1 http [443] tcp open None</p>
+	<p>192.168.20.7 ssh [22] tcp open Linux</p>
+	<p>192.168.20.7 http [443] tcp open Linux</p>
+	<p>192.168.20.11 ssh [22] tcp open Linux</p>
+	
+</code>
+</fieldset>
+<br>
+	<span style="white-space: pre;">	</span>Read more about the <a href="https://github.com/infobyte/faraday/wiki/faraday-plugin">Faraday Plugin</a>.
+
+</ul><br>
+
+<br>
+
+<h2>Tools included in the python&ndash;faraday package :</h2>
+<p>&emsp;<n>python&ndash;faraday &mdash; Collaborative Penetration Test IDE : </n></p>
+
+<fieldset>
+<code>
+
+	<p>root@kali:~# python&ndash;faraday &ndash;h</p>
+	<p>usage: faraday.py [-h] [-n HOST] [-px PORT_XMLRPC] [-pr PORT_REST] [-d]</p>
+	                  <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[--profile] [--profile-output PROFILE_OUTPUT]</p>
+	                  <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[--profile-depth PROFILE_DEPTH] [--disable-excepthook]</p>
+	                  <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[--dev-mode] [--ignore-deps] [--update] [--cert CERT_PATH]</p>
+	                  <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[--gui GUI] [--cli] [-w WORKSPACE] [-r FILENAME]</p>
+	<br>
+	<p>Faraday's launcher parser.</p>
+	<br>
+	<p>optional arguments:</p>
+	  <p>&nbsp;&nbsp;-h, --help            show this help message and exit</p>
+	  <p>&nbsp;&nbsp;-d, --debug           Enables debug mode. Default = disabled</p>
+	  <p>&nbsp;&nbsp;--disable-excepthook  Disable the application exception hook that allows to</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;send error reports to developers.</p>
+	  <p>&nbsp;&nbsp;--dev-mode            Enable dev mode. This will use the user config and</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;plugin folder.</p>
+	  <p>&nbsp;&nbsp;--ignore-deps         Ignore python dependencies resolution.</p>
+	  <p>&nbsp;&nbsp;--update              Update Faraday IDE.</p>
+	  <p>&nbsp;&nbsp;--cert CERT_PATH      Path to the valid CouchDB certificate</p>
+	  <p>&nbsp;&nbsp;--gui GUI             Select interface to start faraday. Supported values</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;are gtk and 'no' (no GUI at all). Defaults to GTK</p>
+	  <p>&nbsp;&nbsp;--cli                 Set this flag to avoid gui and use faraday as a cli.</p>
+	  <p>&nbsp;&nbsp;-w WORKSPACE, --workspace WORKSPACE</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Workspace to be opened</p>
+	  <p>&nbsp;&nbsp;-r FILENAME, --report FILENAME</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Report to be parsed by the cli</p>
+	<br>
+	<p>connection:</p>
+	  <p>&nbsp;&nbsp;-n HOST, --hostname HOST</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The hostname where both server APIs will listen</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(XMLRPC and RESTful). Default = localhost</p>
+	  <p>&nbsp;&nbsp;-px PORT_XMLRPC, --port-xmlrpc PORT_XMLRPC</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sets the port where the api XMLRPCServer will listen.</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Default = 9876</p>
+	  <p>&nbsp;&nbsp;-pr PORT_REST, --port-rest PORT_REST</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sets the port where the api RESTful server will</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;listen. Default = 9977</p>
+	<br>
+	<p>profiling:</p>
+	  <p>&nbsp;&nbsp;--profile             Enables application profiling. When this option is</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;used --profile-output and --profile-depth can also be</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;used. Default = disabled</p>
+	  <p>&nbsp;&nbsp;--profile-output PROFILE_OUTPUT</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sets the profile output filename. If no value is</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;provided, standard output will be used</p>
+	  <p>&nbsp;&nbsp;--profile-depth PROFILE_DEPTH</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sets the profile number of entries (depth). Default =</p>
+	                        <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;500</p>
+
+</code>
+</fieldset>
+
+<br>
+
+<h2>Faraday Usage Examples</h2>
+	<p><span style="white-space: pre;">	</span>Faraday is a GUI application that consists of a ZSH terminal and a sidebar with details about your workspaces and hosts.</p>
+<center><img src="https://1.bp.blogspot.com/-gBH3HUuDtfY/X7vxb4qg8II/AAAAAAAApEU/ND7OWjbXFXwSDNmufP1k8pm85DdePzIMACLcBGAsYHQ/s320/img1-faraday.png" height="400" width="700"/></center>
+<br>
+	<p><span style="white-space: pre;">	</span>When Faraday supports the command you are running, it will automatically detect it and import the results. In the example below, the original <a href="https://tools.kali.org/information-gathering/nmap">nmap</a> command that was entered was nmap &ndash;A 192.168.0.7, which Faraday converted on the fly.</p>
+
+<fieldset>
+<code>
+
+<p>>>> WELCOME TO FARADAY</p>
+<p>[+] Current Workspace: dev1</p>
+<p>[+] API: OK</p>
+<p>[faraday](dev1) kali#  nmap -oX /root/.faraday/output-3.46164772371.xml -A 192.168.0.7 2>&1 | tee -a tmp.tu0ldZx3Bu7O</p>
+<br>
+<p>Starting Nmap 7.40 ( https://nmap.org ) at 2017-03-07 13:46 MST</p>
+<p>Nmap scan report for pi-hole (192.168.0.7)</p>
+<p>Host is up (0.0011s latency).</p>
+<p>Not shown: 995 closed ports</p>
+<p>PORT    STATE SERVICE    VERSION</p>
+<p>22/tcp  open  ssh        OpenSSH 6.7p1 Raspbian 5+deb8u3 (protocol 2.0)</p>
+<p>| ssh-hostkey:</p>
+<p>|   1024 f7:5d:7c :e2:c5:46:32: 19:08:e9:4b :79:5e:80 :1c:83 (DSA)</p>
+<p>|   2048 3c:f9 :1d:ce:03 :0f:2e:d2: 17:05:77:af :81:54: 32:fc (RSA)</p>
+<p>|_  256 ea:20:d1: e0:e1:89:2c :65:9e:0d :d0:d0:e9 :8b:9b:28 (ECDSA)</p>
+<p>53/tcp  open  domain     dnsmasq 2.72</p>
+<p>| dns-nsid:</p>
+<p>|_  bind.version: dnsmasq-2.72</p>
+<p>80/tcp  open  http       lighttpd 1.4.35</p>
+<p>|_http-server-header: lighttpd/1.4.35</p>
+<p>|_http-title: Welcome page</p>
+<p>110/tcp open  tcpwrapped</p>
+<p>143/tcp open  tcpwrapped</p>
+<p>Device type: general purpose</p>
+<p>Running: Linux 2.4.X|3.X</p>
+<p>OS CPE: cpe:/ o:linux:linux _kernel:2 .4.37 cpe:/o: linux:linux_ kernel:3.2</p>
+<p>OS details: DD-WRT v24-sp2 (Linux 2.4.37), Linux 3.2</p>
+<p>Network Distance: 2 hops</p>
+<p>Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel</p>
+<br>
+<p>TRACEROUTE (using port 80/tcp)</p>
+<p>HOP RTT     ADDRESS</p>
+<p>1   0.27 ms 172.16.206.2</p>
+<p>2   0.21 ms pi-hole (192.168.0.7)</p>
+<br>
+<p>OS and Service detection performed. Please report any incorrect results at https://nmap.org/ submit/ .</p>
+<p>Nmap done: 1 IP address (1 host up) scanned in 18.41 seconds</p>
+<p>[faraday](devel1) kali#</p>
+
+</code>
+</fieldset>
+<br>
+
+	<p><span style="white-space: pre;">	</span>Once the nmap scan is finished, double&ndash;clicking on the host under the Hosts tab will bring up details about the host, its services, and any vulnerabilities that were detected.</p>
+<center><img src="https://1.bp.blogspot.com/-ELAwHFdHv6k/X7vxblO_2NI/AAAAAAAApEQ/LTlqTN3lgK8vSM87wzGAPlVIkjgg62u-wCLcBGAsYHQ/s320/img2-faraday.png" height="400" width=700"/></center>
+
+	<p><span style="white-space: pre;">	</span>The excellent <a href="https://tools.kali.org/web-applications/dirb">dirb</a> utility is also supported by Faraday by default:</p>
+
+<fieldset>
+<code>
+
+<p>[faraday](devel1) kali#  dirb http://192.168.0.23/commix&ndash;testbed &ndash;w 2&gt;&1 | tee &ndash;a tmp.qNejUxvF1E</p>
+<br>
+<p>-----------------</p>
+<p>DIRB v2.22    </p>
+<p>By The Dark Raver</p>
+<p>-----------------</p>
+<br>
+<p>START_TIME: Tue Mar  7 13:58:52 2017</p>
+<p>URL_BASE: http:// 192.168.0.23/ commix-testbed/</p>
+<p>WORDLIST_FILES: /usr/share/ dirb/wordlists/ common.txt</p>
+<p>OPTION: Not Stoping on warning messages</p>
+<br>
+<p>-----------------</p>
+<br>
+<p>GENERATED WORDS: 4612       </p>                                                       
+<br>
+<p>---- Scanning URL: http://192.168.0.23 /commix-testbed/ ----</p>
+                                                                                                                             <br>                                                                                                                   
+<p>==> DIRECTORY: http://192.168.0.23 /commix-testbed/fonts/      </p>                                                                                                              
+<p>==> DIRECTORY: http://192.168.0.23 /commix-testbed/img/      </p>                                                                                                                
+<p>+ http://192.168.0.23 /commix-testbed /index.php (CODE:200|SIZE:14346)    </p>                                                                                                    
+<p>==> DIRECTORY: http://192.168.0.23 /commix-testbed/js/ </p>                                                                                                                       
+<p>==> DIRECTORY: http://192.168.0.23 /commix-testbed/readme/    </p>                                                                                                                
+       <br>                                                                                                                                                                      
+<p>---- Entering directory: http://192.168.0.23 /commix-testbed/css/ ----</p>
+<p>(!) WARNING: Directory IS LISTABLE. No need to scan it.     </p>                   
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;(Use mode '-w' if you want to scan it anyway)</p>
+                                                          <br>                                                                                                                   
+<p>---- Entering directory: http://192.168.0.23 /commix-testbed/fonts/ ----</p>
+<p>(!) WARNING: Directory IS LISTABLE. No need to scan it.    </p>                    
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;(Use mode '-w' if you want to scan it anyway)</p>
+                                                          <br>                                                                                                                   
+<p>---- Entering directory: http://192.168.0.23 /commix-testbed/img/ ----</p>
+<p>(!) WARNING: Directory IS LISTABLE. No need to scan it.             </p>           
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;(Use mode '-w' if you want to scan it anyway)</p>
+                                                          <br>                                                                                                                   
+<p>---- Entering directory: http://192.168.0.23 /commix-testbed/js/ ----</p>
+<p>(!) WARNING: Directory IS LISTABLE. No need to scan it.                </p>        
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;(Use mode '-w' if you want to scan it anyway)</p>
+                   <br>                                                                                                                                                          
+<p>---- Entering directory: http://192.168.0.23 /commix-testbed/readme/ ----</p>
+<p>(!) WARNING: Directory IS LISTABLE. No need to scan it.                  </p>      
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;(Use mode '-w' if you want to scan it anyway)</p>
+                                                          <br>                                                                                                                   
+<p>-----------------</p>
+<p>END_TIME: Tue Mar  7 14:04:24 2017</p>
+<p>DOWNLOADED: 27672 - FOUND: 1</p>
+
+</code>
+</fieldset>
+
+<br>
+
+	<p><span style="white-space: pre;">	</span>When the scan is finished, double&ndash;clicking on the host will bring up its details, including the directories that dirb detected.</p>
+	<center><img src="https://1.bp.blogspot.com/-oPPc-MTd4f8/X7vxccDOqQI/AAAAAAAApEY/erTutNdEuhAZ-iDvm_NzsLrlsYF8zXhwQCLcBGAsYHQ/s320/img3-faraday.png" height="500" width="700"/></center>
+
+	<p><span style="white-space: pre;">	</span>Take a look in the <n>/usr/share/python&ndash;faraday/plugins/repo</n> directory to see what other applications Faraday supports.</p>
+
+<fieldset>
+<code>
+
+<p>root@kali:/usr/share/python&ndash;faraday/plugins/repo# ls</p>
+<p>acunetix  dnsrecon      listurl       netsparker     retina          wapiti</p>
+<p>amap      dnswalk       maltego       nexpose        reverseraider   wcscan</p>
+<p>appscan   fierce        masscan       nexpose-full   sentinel        webfuzzer</p>
+<p>arachni   fruitywifi    medusa        nikto          skipfish        whois</p>
+<p>arp-scan  ftp           metagoofil    nmap           sqlmap          wpscan</p>
+<p>beef      goohost       metasploit    openvas        sshdefaultscan  x1</p>
+<p>burp      hping3        metasploiton  pasteanalyzer  sslcheck        zap</p>
+<p>dig       hydra         ndiff         peepingtom     telnet</p>
+<p>dirb      impact        nessus        ping           theharvester</p>
+<p>dnsenum   __init__.py   netcat        propecia       traceroute</p>
+<p>dnsmap    __init__.pyc  netdiscover   qualysguard    w3af</p>
+
+</code>
+</fieldset>
+
+<br>
+
+	<p><span style="white-space: pre;">	</span>Faraday also includes a full&ndash;featured web interface that provides you, your team, and any other interested parties with an immense amount of information.</p>
+
+<center><img src="https://1.bp.blogspot.com/-owKnoj1gF2o/X7vxdsAY5uI/AAAAAAAApEc/50Lk1qP4AzQVjNd8r7V6YxjSQGRaCeriQCLcBGAsYHQ/s320/img4-faraday.png" height="500" width="700"/></center>
+
+<br><br>
+
+<h2>Download Link :</h2>
+	<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/infobyte/faraday/releases"><n>Click Here</n></a></p>
+
+<h2>Install Guide :</h2>
+	<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/infobyte/faraday/wiki/Install-Guide"><n>Click Here</a></n></p>	
+
+<br>
+<p><n> If you want Videos about Python&ndash;Faraday : <a href="https://www.youtube.com/playlist?list=PLVnFEI9HluLqEAhjFPFTjEFxTzYXlcrle">Click Here</a></p>
+
+<p><n>If you want guide about How to run Faraday : <a href="https://github.com/infobyte/faraday/wiki/How-to-run-Faraday">Click Here</a></n></p>
+
+<br><br><br>
+Source : <a href="https://tools.kali.org/information-gathering/faraday">kali.org</a>	
+  
+
+</ul>  
+  </div>
+  
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About us</h2>
+      <p>free ethical hacking course for an enthusiast to learn ethical hacking from begginner to intermediate, By <a href="https://techdogie.blogspot.com/">Techdogie</a> team.</p>
+    </div>
+    <div class="card">
+      <h3>Follow us</h3>
+      <p><a href="https://techdogie.blogspot.com/">Techdogie</a></p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2> <a href="http://freackingcourseonline.c1.biz/">Home</a></h2>
+</div>
+</body>
+</html>
