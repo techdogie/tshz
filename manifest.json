@@ -1,0 +1,26 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Techdogie",
+  "short_name": "Techdogie",
+  "scope": "/",
+  "display": "browser",
+  "start_url": "https://techdogie.blogspot.com/",
+  "background_color": "#000000",
+  "theme_color": "#ffffff",
+  "description": "Here the techdogie we provide best tech information on the internet",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": "false",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16"
+    }
+  ],
+  "url": "https://techdogie.blogspot.com"
+}
