@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <title>Api Display</title>
+</head>
+<body>
+    <div class="w-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,202.7C384,224,480,224,576,192C672,160,768,96,864,69.3C960,43,1056,53,1152,90.7C1248,128,1344,192,1392,224L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg> -->
+    <div class="grid grid-cols gap-4 place-content-stretch ">
+        <div class="">
+            <div class="text-9xl text-justify font-extrabold ">
+            <span class="bg-clip-text text-white bg-gradient-to-r from-violet-500 to-fuchsia-500">Jokes by chuck</span></div>
+            <div class="flex pt-5 ">
+                <img class="scale-125" src="https://gifimage.net/wp-content/uploads/2017/07/chuck-norris-gif-21.gif" alt="Chuck destroying death star" >
+            </div>
+            <div class="text-9xl text-justify font-extrabold  ">
+                <span class="bg-clip-text text-white bg-gradient-to-r from-pink-500 to-violet-500">phew phew</span>
+            </div>
+                <div class="text-5xl text-justify font-extrabold pt-8 ">
+                    <span class="bg-clip-text text-gray-50 bg-gradient-to-r from-cyan-500 to-blue-500">Joke:</span>
+                    <span class="bg-clip-text text-gray-50 bg-gradient-to-r from-cyan-500 to-blue-500" id="joke-dis"></span>
+                </div>
+        </div>
+    </div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,202.7C384,224,480,224,576,192C672,160,768,96,864,69.3C960,43,1056,53,1152,90.7C1248,128,1344,192,1392,224L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+    </div>
+    <script>
+        fetch("https://api.chucknorris.io/jokes/random")
+         .then((response) => {
+        return response.json();
+         })
+            .then((data) => {
+        //   console.log("Data is :", data)
+            var joke = data.value;
+         console.log("joke:", joke);
+        document.getElementById("joke-dis").innerHTML = joke;
+         })
+         .catch();
+    </script>
+</body>
+</html>
